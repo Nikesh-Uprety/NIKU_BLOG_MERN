@@ -7,6 +7,7 @@ import CardStory from "../StoryScreens/CardStory";
 import NoStories from "../StoryScreens/NoStories";
 import Pagination from "./Pagination";
 import "../../Css/Home.css"
+import { BASE_URL } from "../../Context/api";
 
 import { useNavigate } from "react-router-dom"
 const Home = () => {
@@ -25,7 +26,7 @@ const Home = () => {
       setLoading(true)
       try {
 
-        const { data } = await axios.get(`/story/getAllStories?search=${searchKey || ""}&page=${page}`)
+        const { data } = await axios.get(`${BASE_URL}/story/getAllStories?search=${searchKey || ""}&page=${page}`)
 
         if (searchKey) {
           navigate({
@@ -51,7 +52,7 @@ const Home = () => {
       }
     }
     getStories()
-  }, [setLoading, search, page, navigate])
+  }, [setLoading, search, page, navigate, searchKey])
 
 
   useEffect(() => {
