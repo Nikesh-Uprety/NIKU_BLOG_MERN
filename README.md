@@ -90,9 +90,9 @@ This project was created using the following technologies.
 ![11](https://user-images.githubusercontent.com/111676859/226197338-3e530bc6-e7bf-4e4a-9284-165f85be47d2.png) -->
 
 ## Author
-- Portfolio: [berthutapea](https://nikeshuprety.com.np/)
-- Github: [berthutapea](https://github.com/Nikesh-Uprety/)
-- Linkedin: [](https://www.linkedin.com/in/gilberthutapea/)
+- Portfolio: [nikeshuprety](https://nikeshuprety.com.np/)
+- Github: [Nikesh-Uprety](https://github.com/Nikesh-Uprety/)
+- Linkedin: [Nikesh Uprety](https://www.linkedin.com/)
 - Email: [upretynikesh021@gmail.com](mailto:upretynikesh021@gmail.com)
 
 ## License
