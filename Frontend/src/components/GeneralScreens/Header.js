@@ -8,6 +8,7 @@ import { BiLogOut } from 'react-icons/bi'
 import { BsBookmarks } from 'react-icons/bs'
 import SkeletonElement from '../Skeletons/SkeletonElement';
 import { AuthContext } from '../../Context/AuthContext';
+import { BASE_URL } from '../../Context/api';
 
 const Header = () => {
     const bool = localStorage.getItem("authToken") ? true : false
@@ -69,12 +70,12 @@ const Header = () => {
 
                                     :
 
-                                    <img src={`/userPhotos/${activeUser.photo}`} alt={activeUser.username} />
+                                    <img src={`${BASE_URL}/userPhotos/${activeUser.photo}`} alt={activeUser.username} />
 
                                 }
 
 
-                                <div className="sub-profile-wrap  ">
+                                <div className="sub-profile-wrap">
                                     <Link className='profile-link' to="/profile"  > <FaUserEdit />  Profile </Link>
 
                                     <button className='logout-btn' onClick={handleLogout}> <BiLogOut />  Logout</button>

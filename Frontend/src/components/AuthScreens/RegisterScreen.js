@@ -70,10 +70,10 @@ const RegisterScreen = () => {
           </div>
 
           <div className="top-register-explain">
-            <h2>Welcome to MERN Blog </h2>
+            <h2>Welcome to NIKU Blog's </h2>
 
             <p>
-              It's easy and free to post your thinking on any topic and connect with thounsands of readers.
+              It's easy and normal users can like and comment on my post as well as add to reading list, after registering.
 
             </p>
 

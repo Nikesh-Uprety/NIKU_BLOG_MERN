@@ -52,7 +52,7 @@ const ResetPasswordScreen = () => {
         className="resetpassword-form"
       >
 
-        <h3 >Reset Password</h3>
+        <h3 >Reset Password "Its currently under construction, hope you will understand"</h3>
 
         {error && <div className="error_msg">{error} </div>}
 
