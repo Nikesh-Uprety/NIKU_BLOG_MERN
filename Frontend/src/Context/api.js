@@ -1,1 +1,2 @@
-export const BASE_URL = "https://nikublog.onrender.com"
+// export const BASE_URL = "http://localhost:5000"
+export const BASE_URL = "https://mernappreactnikesh.azurewebsites.net/"
