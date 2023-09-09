@@ -76,7 +76,9 @@ const Home = () => {
 
         :
         <div>
+         
           <div className="story-card-wrapper">
+            
             {stories.length !== 0 ?
               stories.map((story) => {
                 return (
