@@ -16,6 +16,7 @@ import ChangePassword from './components/ProfileScreens/ChangePassword';
 import NotFound from './components/GeneralScreens/NotFound';
 import EditStory from './components/StoryScreens/EditStory';
 import ReadListPage from './components/ProfileScreens/ReadListPage';
+import Tools from './components/GeneralScreens/Tools';
 
 const App = () => {
 
@@ -34,6 +35,8 @@ const App = () => {
                                     </Route>
 
                                     <Route exact path="/story/:slug" element={<DetailStory />} />
+
+                                    <Route exact path="/tools" element={<Tools />} />
 
                                     <Route exact path='/addstory' element={<PrivateRoute />}>
                                           <Route exact path='/addstory' element={<AddStory />} />
