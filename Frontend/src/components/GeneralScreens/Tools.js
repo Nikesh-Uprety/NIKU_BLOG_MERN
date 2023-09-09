@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../Css/Tools.css';
-import Cypherrat from '../Tools/CypherRat.rar';
+// import Cypherrat from '../Tools/CypherRat.rar';
 
 const Tools = () => {
 
@@ -43,7 +43,7 @@ const Tools = () => {
                                 <p className="inside-page__text">
                                     A very powerful Remote Access Trojen for Android phones with a lots of features.
                                 </p>
-                                <a href={Cypherrat} target='_blank' download="CypherRat_V3.rar" className="inside-page__btn inside-page__btn--city" rel="noreferrer">
+                                <a href="#" target='_blank' download="CypherRat_V3.rar" className="inside-page__btn inside-page__btn--city" rel="noreferrer">
                                     Downlaod Now
                                 </a>
                             </div>
