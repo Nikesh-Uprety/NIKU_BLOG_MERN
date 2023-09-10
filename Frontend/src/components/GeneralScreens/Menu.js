@@ -40,7 +40,7 @@ const Menu = () => {
                 <Link to="/tools" className={currCount === 1 && 'active'} onClick={() => onClickTab(1)}>
                     <span className={currCount === 1 && 'text-active'}><i class="fas fa-arrow-right"></i> Tools</span>
                 </Link>
-                <Link to="/" className={currCount === 2 && 'active'} onClick={() => onClickTab(2)}>
+                <Link to="/profile" className={currCount === 2 && 'active'} onClick={() => onClickTab(2)}>
                     <span className={currCount === 2 && 'text-active'}><i class="fas fa-arrow-right"></i> Profile</span>
                 </Link>
                 <Link to="/" className={currCount === 3 && 'active'} onClick={() => onClickTab(3)}>
