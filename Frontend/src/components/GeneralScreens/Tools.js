@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../Css/Tools.css';
 // import Cypherrat from '../Tools/CypherRat.rar';
+import Menu from './Menu';
 
 const Tools = () => {
 
@@ -8,6 +9,7 @@ const Tools = () => {
 
     return (
         <main className="main">
+           
             <section className="card-area">
 
                 {/* Card: City */}

@@ -9,6 +9,9 @@ import Pagination from "./Pagination";
 import "../../Css/Home.css"
 import { BASE_URL } from "../../Context/api";
 
+import Menu from "./Menu";
+
+
 import { useNavigate } from "react-router-dom"
 const Home = () => {
   const search = useLocation().search
@@ -76,9 +79,8 @@ const Home = () => {
 
         :
         <div>
-         
+       
           <div className="story-card-wrapper">
-            
             {stories.length !== 0 ?
               stories.map((story) => {
                 return (
@@ -86,6 +88,7 @@ const Home = () => {
                 )
               }) : <NoStories />
             }
+            <Menu />
             <img className="bg-planet-svg" src="planet.svg" alt="planet" />
             <img className="bg-planet2-svg" src="planet2.svg" alt="planet" />
             <img className="bg-planet3-svg" src="planet3.svg" alt="planet" />

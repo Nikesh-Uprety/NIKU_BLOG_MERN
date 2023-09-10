@@ -18,9 +18,7 @@ const StarRating = ({ setStar, setStarCurrentVal, starCurrentVal }) => {
     }
     return (
         <div className="StarRating-wrapper" >
-
             {
-
                 [...Array(5)].map((_, index) => {
 
                     return (
@@ -39,10 +37,7 @@ const StarRating = ({ setStar, setStarCurrentVal, starCurrentVal }) => {
             }
 
         </div>
-
     )
-
 }
-
 
 export default StarRating; 

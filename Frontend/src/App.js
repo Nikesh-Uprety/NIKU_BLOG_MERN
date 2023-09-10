@@ -37,6 +37,8 @@ const App = () => {
                                     <Route exact path="/story/:slug" element={<DetailStory />} />
 
                                     <Route exact path="/tools" element={<Tools />} />
+                                    <Route exact path="/profile" element={<Tools />} />
+                                    <Route exact path="/about" element={<Tools />} />
 
                                     <Route exact path='/addstory' element={<PrivateRoute />}>
                                           <Route exact path='/addstory' element={<AddStory />} />
